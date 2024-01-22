@@ -7,7 +7,7 @@ body {
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #8DC728;
     color: #fff;
     text-align: right;
     padding: 20px;
@@ -55,25 +55,95 @@ button:hover {
 }
 
 /* main Content */
-.wording {
-
-}
-
 .content-container {
-
+    display:flex;
+    justify-content: space-around;
 }
-
-.content-container .image-container {
-
-}
-
-.content-container .image-container .image img{
-
-}
-.imagetext {
-
+.row {
     
 }
-.imagetext2 {
 
+.row2 {
+    display: flex;
+    
+}
+.wurd {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    padding-top: 50px;
+    color: white;
+}
+
+.wording {
+    width: 25%;
+   height: 500px;
+}
+
+.main-header {
+    padding: 0px 25px;
+    margin-bottom: 25px;
+    font-size: xxx-large;
+}
+
+.main-paragraph {
+    padding: 0px 25px;
+    max-width: 100%;
+    margin: 0;
+}
+
+.browse-menu {
+    margin-top:35px;
+    padding: 0px 25px;
+    margin-left: 20px;
+}
+
+.images-container {
+    display: flex;
+    padding-top: 5px;
+    margin-right: 20px;
+    height: 500px;
+}
+
+.image-container {
+    display: flex;
+    flex: 1; /* Allow items to grow and fill the available space */
+    box-sizing: border-box;
+    padding: 0 10px;
+
+}
+
+.item {
+    overflow: hidden;
+    position: relative;
+    margin-left:15px;
+    width: 120%;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.imagetext {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    width: 70px;
+    text-align: right;
+}
+.imagetext2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #8DC728;
+    padding: 10px;
+    font-weight: bold;
+    text-align: right;
+    width: 100px;
 }
